@@ -6,7 +6,7 @@ name: Continuous Integration
 
 on:
   push:
-    branches: [master]
+    branches: ["**"]  # 触发所有分支的推送
     tags:
       - "v*"
   pull_request:
